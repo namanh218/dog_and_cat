@@ -1,0 +1,67 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tuất or Mão</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="/static/style.css" type="text/css">
+
+  </head>
+  <body>
+
+<section class="hero is-fullheight">
+  
+    <div class="bg-img"></div>
+      
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  
+    <div class="hero-body bg-img1"></div>
+      <div class="container has-text-centered bg-text" style="width: 100%">
+          <h1 id='logo'>
+            Mão <span id='vs'> và </span> Tuất
+          </h1>
+          <h2>
+            Năm mới đến rồi phân loại mấy con giáp!
+          </h2>
+        <div>
+          <i class="arrow_down"></i>
+          <form action="/classify" method="post" enctype="multipart/form-data" style="margin-top: 30px; width: 80%; text-align: center; margin: auto;">
+            <div class="file has-name is-centered">     
+                <label class="file-label">
+                  <input class="file-input" type="file" id="image" name = "image">
+                  <span class="file-cta">
+                    <span class="file-label">
+                      Up ảnh đi bạn
+                    </span>
+                  </span>
+                  <span class="file-name" id="file-name">
+                    Hông có gì để up
+                  </span>
+
+                </label>
+              </div>
+              <br>
+              <input type="submit" value="Classify" class="button" name = "image" id="classify_button">
+          </form>
+
+          </div>
+         
+        </div>
+      </div>
+
+  </section>
+
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
